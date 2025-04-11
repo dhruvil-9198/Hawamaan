@@ -1,8 +1,31 @@
-# React + Vite
+# 🌦️ Hawamaan - Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Hawamaan** — a beautifully designed weather app that provides **real-time weather**, **hourly forecasts**, **16-day weather predictions**, and **air quality details** for any location you search!
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [hawamaaan.netlify.app](https://hawamaaan.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+
+- 🔍 **Search Locations:** Autocomplete-powered search for cities and places.
+- 🌡️ **Current Weather:** Live temperature, weather condition, and icon.
+- 🕒 **Hourly Forecast:** 24-hour detailed temperature and weather updates.
+- 📅 **16-Day Forecast:** Long-term weather predictions including highs and lows.
+- 🍃 **Air Conditions:**  
+  - Wind Speed & Direction  
+  - AQI (Air Quality Index)  
+  - UV Index  
+  - Sunrise and Sunset timings  
+  - Precipitation and Visibility
+
+- 🎨 **Modern UI:**  
+  Smooth animations using **Framer Motion** and stylish Tailwind CSS layouts.
+
+## 🛠️ Tech Stack
+
+- **React.js** (Frontend Framework)
+- **Tailwind CSS** (Styling)
+- **Framer Motion** (Animations)
+- **React Icons** (Weather Icons)
+- **APIs Used:**
+  - [LocationIQ API](https://locationiq.com/) (for autocomplete location search)
+  - [Weatherbit API](https://www.weatherbit.io/) (for weather data)
